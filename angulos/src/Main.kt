@@ -1,23 +1,23 @@
 fun main() {
-    // Cálculo da área do retângulo
-    print("Digite a largura do retângulo: ")
+    // calcule da área do retângulo
+    print("digita a largura do retângulo: ")
     val larguraRetangulo = readLine()?.toDoubleOrNull() ?: return
-    print("Digite a altura do retângulo: ")
+    print("digita a altura do retângulo: ")
     val alturaRetangulo = readLine()?.toDoubleOrNull() ?: return
     val areaRetangulo = larguraRetangulo * alturaRetangulo
-    println("Área do retângulo: $areaRetangulo")
+    println("a área do retângulo: $areaRetangulo")
 
-    // Cálculo da área do triângulo
-    print("Digite a base do triângulo: ")
+    // calcule da área do triângulo
+    print("digita a base do triângulo: ")
     val baseTriangulo = readLine()?.toDoubleOrNull() ?: return
-    print("Digite a altura do triângulo: ")
+    print("digita a altura do triângulo: ")
     val alturaTriangulo = readLine()?.toDoubleOrNull() ?: return
     val areaTriangulo = 0.5 * baseTriangulo * alturaTriangulo
-    println("Área do triângulo: $areaTriangulo")
+    println("a área do triângulo: $areaTriangulo")
 
-    // Cálculo da área do círculo
-    print("Digite o raio do círculo: ")
+    // calcule da área do círculo
+    print("digita o raio do círculo: ")
     val raioCirculo = readLine()?.toDoubleOrNull() ?: return
     val areaCirculo = PI * raioCirculo * raioCirculo
-    println("Área do círculo: $areaCirculo")
+    println("a área do círculo: $areaCirculo")
 }
