@@ -1,14 +1,14 @@
 fun main() {
-    // Solicita ao usuário que informe seu nome
-    print("Digite o seu nome: ")
+    // peça ao usuário que digite seu nome
+    print("digita o seu nome: ")
     val nomeDoUsuario = readLine()
 
-    // Solicita ao usuário que informe sua idade
-    print("Digite a sua idade: ")
+    // peça ao usuário que digite sua idade
+    print("digita a sua idade: ")
     val idadeDoUsuario = readLine()
 
-    // Exibe a mensagem personalizada
+    // mostre a mensagem personalizada
     if (nomeDoUsuario != null && idadeDoUsuario != null) {
-        println("Olá, $nomeDoUsuario, sua idade é $idadeDoUsuario")
+        println("olá, $nomeDoUsuario, sua idade é $idadeDoUsuario")
     }
 }
