@@ -1,10 +1,10 @@
 fun main() {
-    // Solicita ao usuário que informe o seu nome
-    print("Digite o seu nome: ")
+    // peça ao usuário que informe o seu nome
+    print("digita o seu nome: ")
     val nomeDoUsuario = readLine()
 
-    // Exibe a mensagem de saudação
+    // veja a mensagem
     if (nomeDoUsuario != null) {
-        println("Olá, $nomeDoUsuario")
+        println("olá, $nomeDoUsuario")
     }
 }
