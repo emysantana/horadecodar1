@@ -1,5 +1,3 @@
-import kotlin.math.PI
-
 fun main() {
     // Cálculo da área do retângulo
     print("Digite a largura do retângulo: ")
